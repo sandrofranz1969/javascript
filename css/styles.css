@@ -1,0 +1,58 @@
+.titolo{
+    text-align: center;
+    color: #7578EA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin-top: 80px;}
+
+#valore-contatore{
+    text-align: center;
+    color:#EBD475;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.operazioni{
+    text-align: center;
+}
+.aggiungi{
+    background-color:#96917D;
+    width: 120px;
+    height: 40px;
+    color:#ffffff;
+    font-size: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sottrai{
+    background-color: #8082AB;
+    width: 120px;
+    height: 40px;
+    color:#ffffff;
+    font-size: 20px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.photo{
+    width: 60%;
+}
+.contenitore{
+    display: flex;
+    justify-content: center;
+}
+
+/*Desktop*/
+@media (min-width: 881px){
+    .photo{
+        width: 25%;
+    }
+    }
+  
+  /* Tablet Styles */
+
+  @media (min-width: 501px) and (max-width: 881px) {
+    .photo{
+        width: 40%;
+    }
+}
+
